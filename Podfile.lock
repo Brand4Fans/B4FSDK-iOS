@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (5.0.0-rc.2)
+  - AlamofireObjectMapper (6.2.0):
+    - Alamofire (= 5.0.0-rc.2)
+    - ObjectMapper (~> 3.5.1)
+  - Kingfisher (6.1.1)
+  - ObjectMapper (3.5.3)
+  - SkeletonView (1.13.0)
+  - SwiftDate (6.3.1)
+
+DEPENDENCIES:
+  - AlamofireObjectMapper
+  - Kingfisher
+  - SkeletonView
+  - SwiftDate
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireObjectMapper
+    - Kingfisher
+    - ObjectMapper
+    - SkeletonView
+    - SwiftDate
+
+SPEC CHECKSUMS:
+  Alamofire: f9450d3c7f6bea2ad62e7a541c3e9b186c7991d6
+  AlamofireObjectMapper: 74d1440c92c42bbcc2b5f4dc81654ac095ec669f
+  Kingfisher: 676d63307fbef6ed5d5ed400bff36983480d7500
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+  SkeletonView: 2b14cb767a7da384d17d5d7e1db0d55a6cf9566a
+  SwiftDate: 72d28954e8e1c6c1c0f917ccc8005e4f83c7d4b2
+
+PODFILE CHECKSUM: 0497bc6cde4afdb08d285ca38241e0f16eb64036
+
+COCOAPODS: 1.11.3

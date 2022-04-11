@@ -1,0 +1,586 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/B4F.swift",
+      "line": 11,
+      "symbol": "B4FDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/B4F.swift",
+      "line": 22,
+      "symbol": "B4FDelegate",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/B4F.swift",
+      "line": 26,
+      "symbol": "B4F",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/B4F.swift",
+      "line": 34,
+      "symbol": "B4F.language",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Alert.swift",
+      "line": 9,
+      "symbol": "AlertList",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Alert.swift",
+      "line": 10,
+      "symbol": "AlertList.list",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Alert.swift",
+      "line": 21,
+      "symbol": "AlertListItem",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Alert.swift",
+      "line": 36,
+      "symbol": "AlertListItem.complements",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Alert.swift",
+      "line": 56,
+      "symbol": "AlertCountNotRead",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Campaign.swift",
+      "line": 11,
+      "symbol": "CampaignList",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Campaign.swift",
+      "line": 12,
+      "symbol": "CampaignList.list",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Campaign.swift",
+      "line": 24,
+      "symbol": "CampaignListItem",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Campaign.swift",
+      "line": 59,
+      "symbol": "CampaignListItem.company",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Campaign.swift",
+      "line": 60,
+      "symbol": "CampaignListItem.complements",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Campaign.swift",
+      "line": 91,
+      "symbol": "CampaignDetail",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Campaign.swift",
+      "line": 113,
+      "symbol": "CompanyInfo",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Campaign.swift",
+      "line": 120,
+      "symbol": "CompanyInfo.complements",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Campaign.swift",
+      "line": 136,
+      "symbol": "CampaignDetailBadge",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Campaign.swift",
+      "line": 159,
+      "symbol": "CampaignDetailBadge.complements",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Campaign.swift",
+      "line": 183,
+      "symbol": "CampaignDetailUserLinkedBadge",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Campaign.swift",
+      "line": 202,
+      "symbol": "CampaignDetailUserAvailableBadge",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Campaign.swift",
+      "line": 218,
+      "symbol": "CampaignType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Campaign.swift",
+      "line": 219,
+      "symbol": "CampaignType.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Campaign.swift",
+      "line": 220,
+      "symbol": "CampaignType.coupon",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Campaign.swift",
+      "line": 221,
+      "symbol": "CampaignType.raffle",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Campaign.swift",
+      "line": 241,
+      "symbol": "CampaignFilter",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Campaign.swift",
+      "line": 262,
+      "symbol": "CampaignFilterCampaignType",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Campaign.swift",
+      "line": 263,
+      "symbol": "CampaignFilterCampaignType.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Campaign.swift",
+      "line": 266,
+      "symbol": "CampaignFilterCampaignType.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Campaign.swift",
+      "line": 282,
+      "symbol": "CampaignFilterCompany",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Campaign.swift",
+      "line": 287,
+      "symbol": "CampaignFilterCompany.complements",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Campaign.swift",
+      "line": 302,
+      "symbol": "CampaignFilterBadge",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Campaign.swift",
+      "line": 317,
+      "symbol": "CampaignFilterBadge.complements",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Complements.swift",
+      "line": 11,
+      "symbol": "ComplementList",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Complements.swift",
+      "line": 12,
+      "symbol": "ComplementList.avatar",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Complements.swift",
+      "line": 13,
+      "symbol": "ComplementList.legal",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Complements.swift",
+      "line": 14,
+      "symbol": "ComplementList.favicon",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Complements.swift",
+      "line": 27,
+      "symbol": "ComplementsURL",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Coupons.swift",
+      "line": 10,
+      "symbol": "CouponList",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Coupons.swift",
+      "line": 11,
+      "symbol": "CouponList.list",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Coupons.swift",
+      "line": 22,
+      "symbol": "CouponListItem",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Coupons.swift",
+      "line": 57,
+      "symbol": "CouponListItem.company",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Coupons.swift",
+      "line": 58,
+      "symbol": "CouponListItem.complements",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Coupons.swift",
+      "line": 89,
+      "symbol": "CouponDetail",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Coupons.swift",
+      "line": 90,
+      "symbol": "CouponDetail.redeemed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Coupons.swift",
+      "line": 91,
+      "symbol": "CouponDetail.redeemDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Coupons.swift",
+      "line": 92,
+      "symbol": "CouponDetail.smarttagCode",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Coupons.swift",
+      "line": 93,
+      "symbol": "CouponDetail.badgeId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Coupons.swift",
+      "line": 94,
+      "symbol": "CouponDetail.badgeReference",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Coupons.swift",
+      "line": 95,
+      "symbol": "CouponDetail.badgeName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Coupons.swift",
+      "line": 96,
+      "symbol": "CouponDetail.badgeDescription",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Coupons.swift",
+      "line": 97,
+      "symbol": "CouponDetail.productId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Coupons.swift",
+      "line": 98,
+      "symbol": "CouponDetail.productReference",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Coupons.swift",
+      "line": 99,
+      "symbol": "CouponDetail.productName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Coupons.swift",
+      "line": 100,
+      "symbol": "CouponDetail.productDescription",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Coupons.swift",
+      "line": 101,
+      "symbol": "CouponDetail.productComplements",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Coupons.swift",
+      "line": 102,
+      "symbol": "CouponDetail.campaignComplements",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Coupons.swift",
+      "line": 129,
+      "symbol": "CouponFilter",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Coupons.swift",
+      "line": 133,
+      "symbol": "CouponState",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Coupons.swift",
+      "line": 134,
+      "symbol": "CouponState.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Coupons.swift",
+      "line": 135,
+      "symbol": "CouponState.active",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Coupons.swift",
+      "line": 136,
+      "symbol": "CouponState.expired",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Coupons.swift",
+      "line": 137,
+      "symbol": "CouponState.redeemed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Coupons.swift",
+      "line": 138,
+      "symbol": "CouponState.won",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Error.swift",
+      "line": 12,
+      "symbol": "B4FError",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Error.swift",
+      "line": 47,
+      "symbol": "B4FError.localizedDescription",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Error.swift",
+      "line": 57,
+      "symbol": "B4FError.code",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Error.swift",
+      "line": 68,
+      "symbol": "B4FErrorData",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Error.swift",
+      "line": 69,
+      "symbol": "B4FErrorData.code",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Error.swift",
+      "line": 70,
+      "symbol": "B4FErrorData.message",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Error.swift",
+      "line": 71,
+      "symbol": "B4FErrorData.key",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/News.swift",
+      "line": 11,
+      "symbol": "NewsList",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/News.swift",
+      "line": 12,
+      "symbol": "NewsList.list",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/News.swift",
+      "line": 24,
+      "symbol": "NewsDetail",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/News.swift",
+      "line": 39,
+      "symbol": "NewsDetail.complements",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Query.swift",
+      "line": 11,
+      "symbol": "Query",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/SmartTag.swift",
+      "line": 11,
+      "symbol": "SmartTagList",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/SmartTag.swift",
+      "line": 12,
+      "symbol": "SmartTagList.list",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/SmartTag.swift",
+      "line": 23,
+      "symbol": "SmartTagListItem",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/SmartTag.swift",
+      "line": 44,
+      "symbol": "SmartTagListItem.productComplements",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Sponsor.swift",
+      "line": 10,
+      "symbol": "SponsorListItem",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/Sponsor.swift",
+      "line": 19,
+      "symbol": "SponsorListItem.complements",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/rubenalonso/git/ios/b4f-sdk-ios/B4FSDK/Sources/Core/Models/User.swift",
+      "line": 10,
+      "symbol": "User",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/rubenalonso/git/ios/b4f-sdk-ios"
+}

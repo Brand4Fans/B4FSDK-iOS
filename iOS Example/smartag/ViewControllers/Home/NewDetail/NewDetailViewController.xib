@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewDetailViewController" customModule="iOS_Example" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="UZc-nC-bVe" id="vLL-sk-eyw"/>
+                <outlet property="labelTitle" destination="hqk-hI-JBh" id="WYK-nv-VY5"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webView" destination="2Tm-zi-PAF" id="b5E-DK-oeo"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UZc-nC-bVe">
+                    <rect key="frame" x="0.0" y="44" width="414" height="233"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="UZc-nC-bVe" secondAttribute="height" multiplier="16:9" id="BOd-37-n68"/>
+                    </constraints>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="KZf-Li-9rP">
+                    <rect key="frame" x="32" y="277" width="350" height="585"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqk-hI-JBh">
+                            <rect key="frame" x="0.0" y="0.0" width="350" height="0.0"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Tm-zi-PAF">
+                            <rect key="frame" x="0.0" y="8" width="350" height="577"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <wkWebViewConfiguration key="configuration">
+                                <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                <wkPreferences key="preferences"/>
+                            </wkWebViewConfiguration>
+                        </wkWebView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="KZf-Li-9rP" firstAttribute="top" secondItem="UZc-nC-bVe" secondAttribute="bottom" id="GF5-Yq-mtL"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="KZf-Li-9rP" secondAttribute="trailing" constant="32" id="H4a-Md-0lt"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="KZf-Li-9rP" secondAttribute="bottom" id="HGK-KG-Dxw"/>
+                <constraint firstItem="UZc-nC-bVe" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="PDZ-RJ-YJz"/>
+                <constraint firstItem="UZc-nC-bVe" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="XGC-5y-Qz4"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="UZc-nC-bVe" secondAttribute="trailing" id="bHf-5n-A4G"/>
+                <constraint firstItem="KZf-Li-9rP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="32" id="oBT-Ey-EeQ"/>
+            </constraints>
+            <point key="canvasLocation" x="220" y="129"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
